@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<link rel="shortcut icon" type="image/png"  href="img/favicon.png" sizes="16x16">
+<meta charset="UTF-8">
+<title>Tidens Samling</title>
+    <link rel="stylesheet" href="tidens-samling.css">
+</head>
+    
+<header>
+       <nav>
+            <ul>
+               <li><a href="#">Kontakt</a></li> 
+                <li><a href="#">Det sker</a></li>
+                <li><a href="#">Arrangementer</a></li>
+            </ul>
+        </nav>  
+<div class= "tslogo"><img src="img/tslogo.png" alt="Tidens Samling"></div>
+</header>
+    
+<main>
+    <div class="tscover">
+			<h1><i>A walk down memory lane</i></h1>
+		</div>
+        <h2>Tidens Samling</h2>
+	<article>
+<div class="awork"></div>
+		<div class="apart">
+			<div class="both">
+				<div class="together"></div>
+			</div>
+		</div>
+</article> 
+	
+.apart {
+	width: 600px; 
+	height: 450px;
+	overflow: hidden;
+	background: url(img/kontakt);
+  	position: absolute;
+	margin-top: 30px;
+	margin-left: 175px;
+}		
+.both {
+	width: 0; 
+	height: 450px;
+	overflow: hidden;
+	margin-left: -100px;
+	 transform: skew(-20deg);
+	 -webkit-transition: width 1s ease;
+}		
+.apart:hover .both {
+	width: 800px;
+}
+.together {
+	width: 800px; 
+	height: 450px;
+	transform:skew(20deg);
+	margin-left: -55px;
+	background: url(img/udstilling1.jpg);
+	background-position: 50px 0px;
+}
+
+    
+</main> 
+    
+<body>
+</body>
+</html>
