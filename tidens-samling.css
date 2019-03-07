@@ -14,11 +14,12 @@ body {
 }
 
 .logo{
-    margin-left: 0.4%;
-    padding-top: 50px;
+    margin-top:  -80px;
+    margin-left: -45px;
+    
 }
 .responsive {
-      width: 25%;
+      width: 45%;
       height: auto;
 }
 
@@ -29,7 +30,7 @@ nav ul li {
     list-style-type: none;
     float: right;
     padding: 5px;
-    margin-top: 120px;
+    margin-top: 90px;
     margin-right: 30px;
     
 }
@@ -59,10 +60,10 @@ li a:hover {
 }
 .cover{
 	height: 750px;
-	background-image: url("img/tidens-samling-cover.jpg");
+	background-image: url("img/cover1.jpg");
 	background-size: cover;
 	margin: 0.4%;
-    margin-top: 50px;
+    margin-top: -50px;
 }
 .parallax {
   position: relative;
@@ -127,13 +128,6 @@ h3 {
     column-span: all;
 
 }
-/*------Dette er for at styre txt på nederste img-------*/
-
-.img4{
-     margin-left: 130px;
-    margin-right: 130px; 
-}
-
 
 h4 {
 	color: #222;	
@@ -147,6 +141,8 @@ h5 {
     font-size: 16px;
     text-align: center;
     padding-top: 10px;
+       -webkit-column-span: all;
+    column-span: all;
 }
 .white {
     color: #fff;
@@ -158,6 +154,8 @@ h5 {
 	p {
     color: #000;
     font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
 	}
 
 
@@ -175,6 +173,8 @@ h5 {
 	width: 32.4%;
 	float: left;
 	margin: 0.4%;
+    margin-bottom: 50px;
+    
 }
 
 /*------Dette er txt på gallery------*/
@@ -222,9 +222,11 @@ h5 {
 @media (max-width:1080px){
 	
 	.cover{
-     height: 450px;
+     height: 390px;
 	}
-
+.cover2{
+     height: 390px;
+	}
 		h1 {
     font-size: 45px;
             padding-top: 150px;
@@ -242,14 +244,14 @@ h5 {
 
     }
     h5 {
-    font-size: 12px;
+    font-size: 15px;
     }
 	p {
     font-size: 12px;
 	}
     nav ul li {
         padding: 1px;
-    margin-top: 100px;
+    margin-top: 40px;
     }
     nav ul li a {
     font-size: 16px;  
@@ -386,9 +388,10 @@ h5 {
 
 .cover2{
 	min-height: 650px;
-	background-image: url("img/cover2.jpg");
+	background-image: url("img/tidens-samling-cover.jpg");
 	background-size: cover;
 	margin: 0.4%;
+    margin-top: -50px
 }
 .img1 {
     max-width: 98%;
@@ -398,8 +401,9 @@ h5 {
 }
 section{
 	float: left;
-	width: 670px;
-	margin-right: 40px;
+	width: 99%;
+	margin-right: 1px;
+    margin-left: 5px;
 	margin-top: 35px;
 	display: inline-block;
     margin-bottom: 180px;
@@ -416,9 +420,10 @@ article {
 	display: block;
 	float: left;
 	height: 250px;
-	width: 760px;
-	margin-bottom: 50px;
-	margin-left: 0.4%;
+	width: 99%;
+	margin-bottom: 20px;
+	margin-right: 1px;
+    margin-left: 5px;
     -webkit-column-count: 3;
     column-count: 3;
     
@@ -435,18 +440,12 @@ article {
 	margin: 0.4%;
 }
 
+/*Dette er css til "kontakt"*/
 
-/*Dette er css til "Det sker"*/
-
-.cover3{
+.cover4{
 	min-height: 650px;
-	background-image: url("img/cover-badehotellet.png");
+	background-image: url("img/kontaktcover2.jpg");
 	background-size: cover;
 	margin: 0.4%;
-}
-.img3 {
-    max-width: 98%;
-	margin-left: 0.4%;
-    margin-bottom: 20px;
-    margin-top: 35px;
+    margin-top: -50px;
 }
